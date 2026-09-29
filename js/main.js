@@ -23,8 +23,8 @@
       '\n'+(en?'Language: ':'Idioma: ')+d.get('idioma')+(d.get('servicio')?'\n'+(en?'Service: ':'Servicio: ')+d.get('servicio'):'');
     if(f.dataset.wa){window.open('https://wa.me/'+f.dataset.wa+'?text='+encodeURIComponent(txt),'_blank');}
     else if(f.dataset.mail){location.href='mailto:'+f.dataset.mail+'?subject=Valoración&body='+encodeURIComponent(txt);}
-    else{f.querySelector('.form-msg').hidden=true;var p=f.querySelector('.form-pend');if(p)p.hidden=false;return;}
-    f.querySelector('.form-msg').hidden=false;
+    else{f.querySelector('.form-pend').hidden=false;return;}
+    f.querySelector('.form-ok').hidden=false;
   });
 })();
 (function(){

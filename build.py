@@ -427,7 +427,7 @@ def contacto():
     <select name="servicio"><option value="">{'Servicio de interés · Service'}</option>{ops}</select>
     <button class="btn" type="submit">{T("Agendar valoración", "Book consultation")} · {PRECIO_VALORACION}</button>
     <p class="form-pend form-msg" hidden>{T("Muy pronto habilitamos el agendamiento en línea. Gracias por tu paciencia.", "Online booking opens very soon. Thank you for your patience.")}</p>
-    <p class="form-msg" hidden>{T("¡Gracias! Te contactaremos muy pronto.", "Thank you! We'll contact you shortly.")}</p>
+    <p class="form-ok form-msg" hidden>{T("¡Gracias! Te contactaremos muy pronto.", "Thank you! We'll contact you shortly.")}</p>
   </form>
 </section>"""
 
