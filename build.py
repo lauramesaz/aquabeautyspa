@@ -407,7 +407,7 @@ def footer():
     <div class="foot-col"><p class="foot-h">{T("Contacto", "Contact")}</p>{"".join(contacto) or T("Boston, MA · Colombia", "Boston, MA · Colombia")}
       <p class="foot-h" style="margin-top:18px">{T("Idioma", "Language")}</p>{SWITCH}</div>
   </div>
-  <div class="wrap foot-legal">© 2026 Aqua Beauty &amp; Spa · {T("La información de este sitio es orientativa y no reemplaza la valoración médica.", "The information on this site is for guidance and does not replace a medical consultation.")}</div>
+  <div class="wrap foot-legal">© 2026 Aqua Beauty &amp; Spa · {T("La información de este sitio es orientativa y no reemplaza la valoración médica.", "The information on this site is for guidance and does not replace a medical consultation.")}<span style="display:block;margin-top:8px">{T("Web y SEO:", "Website &amp; SEO:")} <a href="https://posicion-seo.com/">Visibla</a></span></div>
 </footer>
 <a href="{cta_href()}" class="mcta">{T("Agendar valoración", "Book consultation")} · {PRECIO_VALORACION}</a>
 <script src="js/main.js"></script>
